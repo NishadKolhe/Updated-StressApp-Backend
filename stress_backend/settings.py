@@ -137,5 +137,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://your-netlify-app.netlify.app",
+     "https://calmcare.netlify.app",
+    # you can also add localhost for local dev
+    "http://localhost:3000",
 ]
